@@ -1,0 +1,176 @@
+@font-face{
+	font-family:"KG Primary Italics";
+    src:url("fuentes/KGPrimaryItalics.ttf");
+}
+@font-face{
+	 font-family:"Glossy Sheen Shine";	
+	src:url("fuentes/Glossy Sheen Shine DEMO.ttf");
+}
+body{
+     background-color:#080bc9; /*Color del fondo*/
+	 font-family: KG Primary Italics;
+}
+h1{
+   color:#e9ed0c;  /* sirve para poner color al texto*/
+   text-align:center; /*Alineacion centrada*/
+   font-size:50px; /*tamaño de fuente*/
+   font-family: Glossy Sheen Shine;
+   /*background-color:#ffffff; /*Color de fondo del titulo*/
+  margin-left: 5%;
+  /*border-radius: 20px;*/
+  border-top-style: double;
+  border-top-width: 10px;
+  /*border-right-style:dashed;*/
+  /*border-right-width: 10px;*/
+  border-bottom-style: double;
+  border-bottom-width: 10px;
+  /*border-left-style:solid;*/
+  /*border-left-width: 15px;*/
+  margin-right: 5%;
+  
+  text-shadow: 4px 4px 7px black; /* sombra del titulo */
+}
+p{
+   color:#ffffff;/*sirve para poner color al texto*/
+   text-align:justify; /*Alineacion centrada*/
+   font-size:30px; /*tamaño de fuente*/
+   line-height:35px;/*interlineado*/
+   margin-left:5%;/*margen derecho*/
+   margin-right:5%;/*margen izquierdo*/
+   text-shadow: 1px 1px 2px black;
+}
+
+h2{
+   color: #e9ed0c;  /* sirve para poner color al texto*/
+   text-align:justify; /*Alineacion justificada*/
+   font-size:35px; /*tamaño de fuente*/
+   line-height: 30px;/*interlineado*/
+   margin-left:2%;/*margen de pantalla*/
+    text-shadow: 2px 2px 5px black; /* sombra del titulo */
+}
+
+h3{
+   color: #e9ed0c;  /* sirve para poner color al texto*/
+   text-align:justify; /*Alineacion justificada*/
+   font-size:30px; /*tamaño de fuente*/
+   line-height: 25px;/*interlineado*/
+   margin-left:2%;/*margen de pantalla*/
+    text-shadow: 2px 2px 5px black; /* sombra del titulo */
+}
+
+table{
+   color:yellow;  /* sirve para poner color al texto*/
+   text-align:justify; /*Alineacion centrada*/
+   font-size:25px; /*tamaño de fuente*/
+   background-color:black;/*color de fondo*/
+   margin:auto;/*para centrar la tabla*/
+   width:90%;
+   line-height: 30px;
+   border-radius: 20px;
+   border-style: double;
+   border-width: 12px; 
+   border-color:yellow;
+}
+td{
+	
+   border-radius: 20px;
+   border-style:solid;
+   border-width: 3px; 
+   border-color:blue;
+  text-align: center;
+  line-height: 30px;
+}
+ol{
+   color:#fcfcfa;  /* sirve para poner color al texto*/
+   text-align:justify; /*Alineacion centrada*/
+   font-size:25px; /*tamaño de fuente*/
+    margin-left:5%;/*margen de pantalla*/
+    line-height: 30px;
+}
+ul{
+   color:#fcfcfa;  /* sirve para poner color al texto*/
+   text-align:justify; /*Alineacion centrada*/
+   font-size:25px; /*tamaño de fuente*/
+    margin-left:5%;/*margen de pantalla*/
+   line-height: 30px;
+}
+
+img{
+	display:block;
+	margin:auto;
+	margin-top:50px;
+	
+	border-style: double;
+	border-width: 15px;
+	border-radius: 20px;
+	border-color: #e9ed0c;
+	
+	box-shadow: 2px 2px 18px white;
+}
+
+iframe{
+	display:block;
+	margin:auto;
+	margin-top:35px;
+	
+	border-style: double;
+	border-width: 15px;
+	border-radius: 20px;
+	border-color: #e9ed0c;
+	
+	box-shadow: 2px 2px 18px white;
+}
+
+.diferente1{
+   color:white;  /* sirve para poner color al texto*/
+   text-align:justify; /*Alineacion justificada*/
+   font-size:35px; /*tamaño de fuente*/
+   line-height: 30px;/*interlineado*/
+   margin-left:0%;
+   text-shadow: 2px 2px 5px black; /* sombra del titulo */
+}
+
+a:link{
+		color: yellow;
+		font-size:25px;
+		background-color:#080bc9;
+		
+}
+
+
+a:hover{
+	    color: blue;
+		background-color: white;
+}			
+
+a:visited{
+	 color: yellow;
+	 background-color: black;
+}
+
+textarea{
+	margin-left: 5%;
+}
+
+.diferente2{
+	display: inline;
+	margin-left:5%;
+	margin-right:5%;
+}
+.diferente3:link{
+	text-decoration:none;
+}
+
+.diferente3:hover{
+	background-color:transparent;
+	color:transparent;
+}
+
+.diferente3:visited{
+	background-color:transparent;
+	color:transparent;
+}
+
+.diferente4{
+	margin-bottom: 5%;
+}
